@@ -1,0 +1,15 @@
+name = HS configs
+core = 7.x
+package = Features
+dependencies[] = hierarchical_select
+dependencies[] = hs_taxonomy
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[hierarchical_select][] = taxonomy-categories
+
+; Information added by Drupal.org packaging script on 2015-11-10
+version = "7.x-1.5"
+core = "7.x"
+project = "commerce_profile"
+datestamp = "1447141823"
+
